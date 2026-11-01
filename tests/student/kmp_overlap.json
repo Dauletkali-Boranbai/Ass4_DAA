@@ -1,0 +1,13 @@
+[
+  {
+    "name": "student-kmp-overlap",
+    "input": {
+      "task": "kmp",
+      "text": "abababa",
+      "pattern": "aba"
+    },
+    "output": {
+      "positions": [0, 2, 4]
+    }
+  }
+]

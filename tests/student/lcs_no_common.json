@@ -1,0 +1,14 @@
+[
+  {
+    "name": "student-lcs-no-common",
+    "input": {
+      "task": "lcs",
+      "a": "abc",
+      "b": "xyz"
+    },
+    "output": {
+      "length": 0,
+      "sequence": ""
+    }
+  }
+]

@@ -22,6 +22,9 @@ For suffix discuss doubling and Kasai separately. For rk use base 31/mod 101 and
 
 |Command|Input or fixture path|Expected result|Actual result / log|What it checks|
 |---|---|---|---|---|
+| LCS | `tests/student/lcs_no_common.json` | `{"length":0,"sequence":""}` | PASS — `{"length":0,"sequence":""}` | Detects incorrect DP initialization or reconstruction when the strings have no common characters. |
+| KMP | `tests/student/kmp_overlap.json` | `{"positions":[0,2,4]}` | PASS — `{"positions":[0,2,4]}` | Detects missed overlapping matches caused by incorrect prefix-table handling. |
+| Rabin–Karp | `tests/student/rk_no_match.json` | `{"positions":[]}` | PASS — `{"positions":[]}` | Detects false matches when the pattern is absent from the text. |
 
 ## Search comparison
 

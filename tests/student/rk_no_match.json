@@ -1,0 +1,13 @@
+[
+  {
+    "name": "student-rk-no-match",
+    "input": {
+      "task": "rk",
+      "text": "abcdef",
+      "pattern": "xyz"
+    },
+    "output": {
+      "positions": []
+    }
+  }
+]
